@@ -2,9 +2,9 @@
 ### 1. Infrastructure Requirement
 
 1. Server:
-    OS version: Ubuntu 20.04
-    RAM       : 8Gb
-    STORAGE   : 50Gb
+    1. OS version: Ubuntu 20.04
+    2. RAM       : 8Gb
+    3. STORAGE   : 50Gb
 
 ### 2. Install golang
 
