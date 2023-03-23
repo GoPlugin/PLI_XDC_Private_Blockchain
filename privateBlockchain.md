@@ -14,8 +14,10 @@ Remember to set environment variables:
  2. GOROOT=/usr/local/go
 
 ### 3. Prepare XinFin client
-Utill "pr 238" is merged in XinFinOrg github, you can use this Repo.
+Untill "pr 238" is merged in XinFinOrg github, you can use this Repo.
 ```shell
+cd ${HOME}
+git clone https://github.com/GoPlugin/PLI_XDC_Private_Blockchain.git
 cd ${HOME}/PLI_XDC_Private_Blockchain/XDPoSChain
 make all
 ```
