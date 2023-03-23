@@ -343,7 +343,7 @@ Once the node starts, wait for the block number * 4 times the blocks per epoch a
 ### 7. Configure XDCPay
 #### 7.1 Configure the RPC, chain ID
 1. Add a new Network under "Network Settings"
-2. Network Name => Private Blcokchain
+2. Network Name => Private Blockchain
 3. New RPC URL => http://<public_ip_address_of_server>:<port_mentioned_in_start-3-signers-networks.hs_at_line_BASE_RPC_PORT>
 4. Chain ID => As given in topic 4.17
 
