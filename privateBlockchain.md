@@ -183,6 +183,7 @@ Which accounts are allowed to confirm in Team MultiSignWallet?
 ```
 
 Here I input 3 addresses: (These addresses are from your XDCPay Wallet Account)
+NOTE: These are the same addresses used in step 4.11
 
 - d9ac740163cc633c05b00c589eb7c9997925511c
 - 4fe0fb8578841584a3693c010c455fd8a056b7d3
