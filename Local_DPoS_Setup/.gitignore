@@ -1,0 +1,4 @@
+nodes/
+logs/
+*.pid
+.env
