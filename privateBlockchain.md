@@ -313,7 +313,7 @@ cp ${HOME}/XDPoSChain/build/bin/bootnode.key ${HOME}/Local_DPoS_Setup
 
 #### 6.3 Setup ENODE and private keys
 
-Edit file `${HOME}/Local_DPoS_Setup/.env`, add 4 private keys without 0x prefix:
+Edit file `${HOME}/Local_DPoS_Setup/.env`, add 4 private keys(of 1 master node, 3signer nodes as given in step 4.6, 4.7) without 0x prefix:
 
 ```text
 ENODE=<ENODE_VALUE>
@@ -328,6 +328,9 @@ PRIVATE_KEY_3=<KEY_3>
 - PRIVATE_KEY_1='83bf7f8349688dc2b6602883c8c14ef78f017b498c3c009d5286e3b10e1c1042'
 - PRIVATE_KEY_2='5f3aab8fea3a3e654eb006d5bbb552729c1d50df270b316380ad09fa75bf022a'
 - PRIVATE_KEY_3='e896872d3d5958fa87ad001c5a4437f340b1a0e21d55f3be07d533c5adf9fcd8'
+
+PRIVATE_KEY_0 => Master node private key
+PRIVATE_KEY_1, PRIVATE_KEY_2, PRIVATE_KEY_3 => Signer node private keys
 
 #### 6.4 Start private networks
 Edit file `${HOME}/Local_DPoS_Setup/start-3-private-networks.sh`, edit line number 21 to include your XDPoS.json file
