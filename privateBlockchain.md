@@ -349,7 +349,7 @@ Once the node starts, wait for the block number * 4 times the blocks per epoch a
 
 
 ## References
-IMPORTANT: XDC Private Blockchain need to have 3 or 5 signer as mentioned under "4.5" topic.
+IMPORTANT: XDC Private Blockchain need to have 3 or 5 signer as mentioned under "4.7" topic.
            If we try to set it up using 2 or 4 signer node then we will have brain split as logged in       
             "https://github.com/XinFinOrg/XDPoSChain/pull/238#issuecomment-1473551663"
 
