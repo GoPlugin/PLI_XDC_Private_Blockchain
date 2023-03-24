@@ -3,7 +3,7 @@
 
 1. Server:
     1. OS version: Ubuntu 20.04
-    2. RAM       : 8Gb
+    2. RAM       : Minimum 16Gb, Better 32Gb
     3. STORAGE   : 50Gb
 
 ### 2. Install golang
