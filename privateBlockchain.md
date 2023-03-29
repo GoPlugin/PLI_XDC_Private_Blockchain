@@ -333,9 +333,9 @@ PRIVATE_KEY_0 => Master node private key
 PRIVATE_KEY_1, PRIVATE_KEY_2, PRIVATE_KEY_3 => Signer node private keys
 
 #### 6.4 Start private networks
-Edit file `${HOME}/Local_DPoS_Setup/start-3-private-networks.sh`, edit line number 21 to include your XDPoS.json file
+Edit file `${HOME}/Local_DPoS_Setup/start-3-signer-networks.sh`, edit line number 21 to include your XDPoS.json file
 ```shell
-./start-3-private-networks.sh
+./start-3-signer-networks.sh
 ```
 #### 6.5 Verify private networks
 Once the node starts, wait for the block number * 4 times the blocks per epoch as given under the topic 4.8
